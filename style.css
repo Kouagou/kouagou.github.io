@@ -1,0 +1,125 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.cta-btn {
+    background-color: #ff6200;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* Header Section */
+.header {
+    background-image: url('maze-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 20px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Features Section */
+.features-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.features-section h2 {
+    margin-bottom: 40px;
+    font-size: 2rem;
+    color: #ff6200;
+}
+
+.feature {
+    margin-bottom: 40px;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #ff6200;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.team-links a {
+    margin: 0 15px;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
